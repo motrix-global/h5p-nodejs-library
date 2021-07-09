@@ -2,7 +2,7 @@ import {
     AggregateH5pError,
     AjaxErrorResponse,
     H5pError
-} from '@lumieducation/h5p-server';
+} from '@motrixglobal/h5p-server';
 import { Request, Response, NextFunction } from 'express';
 
 export function undefinedOrTrue(option: boolean): boolean {

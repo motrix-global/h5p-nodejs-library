@@ -6,7 +6,7 @@ import express from 'express';
 import fileUpload from 'express-fileupload';
 import path from 'path';
 import supertest from 'supertest';
-import * as H5P from '@lumieducation/h5p-server';
+import * as H5P from '@motrixglobal/h5p-server';
 import fsExtra from 'fs-extra';
 
 import User from './User';

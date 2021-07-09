@@ -19,7 +19,7 @@ import {
     ContentFileScanner,
     LibraryManager,
     streamToString
-} from '@lumieducation/h5p-server';
+} from '@motrixglobal/h5p-server';
 
 import postCssRemoveRedundantUrls from './helpers/postCssRemoveRedundantFontUrls';
 import LibrariesFilesList from './helpers/LibrariesFilesList';

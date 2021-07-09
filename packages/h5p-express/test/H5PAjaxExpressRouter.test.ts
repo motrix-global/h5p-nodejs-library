@@ -7,7 +7,7 @@ import path from 'path';
 import supertest from 'supertest';
 import { dir } from 'tmp-promise';
 import fsExtra from 'fs-extra';
-import * as H5P from '@lumieducation/h5p-server';
+import * as H5P from '@motrixglobal/h5p-server';
 
 import User from './User';
 import H5PAjaxExpressRouter from '../src/H5PAjaxRouter/H5PAjaxExpressRouter';

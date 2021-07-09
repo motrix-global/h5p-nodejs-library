@@ -618,9 +618,9 @@ export default class LibraryManager {
                     fromDirectory,
                     fileFullPath
                 );
-                if (fileLocalPath === 'library.json') {
-                    return Promise.resolve(true);
-                }
+                // if (fileLocalPath === 'library.json') {
+                //     return Promise.resolve(true);
+                // }
                 const readStream: Readable = fsExtra.createReadStream(
                     fileFullPath
                 );

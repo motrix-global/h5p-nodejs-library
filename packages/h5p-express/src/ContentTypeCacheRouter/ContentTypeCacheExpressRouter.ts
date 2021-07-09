@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { ContentTypeCache } from '@lumieducation/h5p-server';
+import { ContentTypeCache } from '@motrixglobal/h5p-server';
 
 import {
     errorHandler,

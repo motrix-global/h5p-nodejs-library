@@ -6,7 +6,7 @@ import {
     IInstalledLibrary,
     ILibraryAdministrationOverviewItem,
     LibraryAdministration
-} from '@lumieducation/h5p-server';
+} from '@motrixglobal/h5p-server';
 
 export default class LibraryAdministrationExpressController {
     constructor(
