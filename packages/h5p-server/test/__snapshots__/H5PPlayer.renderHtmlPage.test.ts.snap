@@ -6,19 +6,19 @@ exports[`Rendering the HTML page includes custom scripts and styles in the gener
 <head>
     <meta charset="utf-8">
    
-    <link rel="stylesheet" href="/h5p/core/styles/h5p.css?version=1.24-master"/>
-    <link rel="stylesheet" href="/h5p/core/styles/h5p-confirmation-dialog.css?version=1.24-master"/>
-    <link rel="stylesheet" href="/h5p/core/styles/h5p-core-button.css?version=1.24-master"/>
+    <link rel="stylesheet" href="/h5p/core/styles/h5p.css?version=1.26"/>
+    <link rel="stylesheet" href="/h5p/core/styles/h5p-confirmation-dialog.css?version=1.26"/>
+    <link rel="stylesheet" href="/h5p/core/styles/h5p-core-button.css?version=1.26"/>
     <link rel="stylesheet" href="/test.css"/>
-    <script src="/h5p/core/js/jquery.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/h5p.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/h5p-event-dispatcher.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/h5p-x-api-event.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/h5p-x-api.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/h5p-content-type.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/h5p-confirmation-dialog.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/h5p-action-bar.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/request-queue.js?version=1.24-master"></script>
+    <script src="/h5p/core/js/jquery.js?version=1.26"></script>
+    <script src="/h5p/core/js/h5p.js?version=1.26"></script>
+    <script src="/h5p/core/js/h5p-event-dispatcher.js?version=1.26"></script>
+    <script src="/h5p/core/js/h5p-x-api-event.js?version=1.26"></script>
+    <script src="/h5p/core/js/h5p-x-api.js?version=1.26"></script>
+    <script src="/h5p/core/js/h5p-content-type.js?version=1.26"></script>
+    <script src="/h5p/core/js/h5p-confirmation-dialog.js?version=1.26"></script>
+    <script src="/h5p/core/js/h5p-action-bar.js?version=1.26"></script>
+    <script src="/h5p/core/js/request-queue.js?version=1.26"></script>
     <script src="/test.js"></script>
 
     <script>
@@ -53,21 +53,21 @@ exports[`Rendering the HTML page includes custom scripts and styles in the gener
   },
   "core": {
     "scripts": [
-      "/h5p/core/js/jquery.js?version=1.24-master",
-      "/h5p/core/js/h5p.js?version=1.24-master",
-      "/h5p/core/js/h5p-event-dispatcher.js?version=1.24-master",
-      "/h5p/core/js/h5p-x-api-event.js?version=1.24-master",
-      "/h5p/core/js/h5p-x-api.js?version=1.24-master",
-      "/h5p/core/js/h5p-content-type.js?version=1.24-master",
-      "/h5p/core/js/h5p-confirmation-dialog.js?version=1.24-master",
-      "/h5p/core/js/h5p-action-bar.js?version=1.24-master",
-      "/h5p/core/js/request-queue.js?version=1.24-master",
+      "/h5p/core/js/jquery.js?version=1.26",
+      "/h5p/core/js/h5p.js?version=1.26",
+      "/h5p/core/js/h5p-event-dispatcher.js?version=1.26",
+      "/h5p/core/js/h5p-x-api-event.js?version=1.26",
+      "/h5p/core/js/h5p-x-api.js?version=1.26",
+      "/h5p/core/js/h5p-content-type.js?version=1.26",
+      "/h5p/core/js/h5p-confirmation-dialog.js?version=1.26",
+      "/h5p/core/js/h5p-action-bar.js?version=1.26",
+      "/h5p/core/js/request-queue.js?version=1.26",
       "/test.js"
     ],
     "styles": [
-      "/h5p/core/styles/h5p.css?version=1.24-master",
-      "/h5p/core/styles/h5p-confirmation-dialog.css?version=1.24-master",
-      "/h5p/core/styles/h5p-core-button.css?version=1.24-master",
+      "/h5p/core/styles/h5p.css?version=1.26",
+      "/h5p/core/styles/h5p-confirmation-dialog.css?version=1.26",
+      "/h5p/core/styles/h5p-core-button.css?version=1.26",
       "/test.css"
     ]
   },
@@ -265,18 +265,18 @@ exports[`Rendering the HTML page uses default renderer and integration values 1`
 <head>
     <meta charset="utf-8">
    
-    <link rel="stylesheet" href="/h5p/core/styles/h5p.css?version=1.24-master"/>
-    <link rel="stylesheet" href="/h5p/core/styles/h5p-confirmation-dialog.css?version=1.24-master"/>
-    <link rel="stylesheet" href="/h5p/core/styles/h5p-core-button.css?version=1.24-master"/>
-    <script src="/h5p/core/js/jquery.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/h5p.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/h5p-event-dispatcher.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/h5p-x-api-event.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/h5p-x-api.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/h5p-content-type.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/h5p-confirmation-dialog.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/h5p-action-bar.js?version=1.24-master"></script>
-    <script src="/h5p/core/js/request-queue.js?version=1.24-master"></script>
+    <link rel="stylesheet" href="/h5p/core/styles/h5p.css?version=1.26"/>
+    <link rel="stylesheet" href="/h5p/core/styles/h5p-confirmation-dialog.css?version=1.26"/>
+    <link rel="stylesheet" href="/h5p/core/styles/h5p-core-button.css?version=1.26"/>
+    <script src="/h5p/core/js/jquery.js?version=1.26"></script>
+    <script src="/h5p/core/js/h5p.js?version=1.26"></script>
+    <script src="/h5p/core/js/h5p-event-dispatcher.js?version=1.26"></script>
+    <script src="/h5p/core/js/h5p-x-api-event.js?version=1.26"></script>
+    <script src="/h5p/core/js/h5p-x-api.js?version=1.26"></script>
+    <script src="/h5p/core/js/h5p-content-type.js?version=1.26"></script>
+    <script src="/h5p/core/js/h5p-confirmation-dialog.js?version=1.26"></script>
+    <script src="/h5p/core/js/h5p-action-bar.js?version=1.26"></script>
+    <script src="/h5p/core/js/request-queue.js?version=1.26"></script>
 
     <script>
         window.H5PIntegration = {
@@ -310,20 +310,20 @@ exports[`Rendering the HTML page uses default renderer and integration values 1`
   },
   "core": {
     "scripts": [
-      "/h5p/core/js/jquery.js?version=1.24-master",
-      "/h5p/core/js/h5p.js?version=1.24-master",
-      "/h5p/core/js/h5p-event-dispatcher.js?version=1.24-master",
-      "/h5p/core/js/h5p-x-api-event.js?version=1.24-master",
-      "/h5p/core/js/h5p-x-api.js?version=1.24-master",
-      "/h5p/core/js/h5p-content-type.js?version=1.24-master",
-      "/h5p/core/js/h5p-confirmation-dialog.js?version=1.24-master",
-      "/h5p/core/js/h5p-action-bar.js?version=1.24-master",
-      "/h5p/core/js/request-queue.js?version=1.24-master"
+      "/h5p/core/js/jquery.js?version=1.26",
+      "/h5p/core/js/h5p.js?version=1.26",
+      "/h5p/core/js/h5p-event-dispatcher.js?version=1.26",
+      "/h5p/core/js/h5p-x-api-event.js?version=1.26",
+      "/h5p/core/js/h5p-x-api.js?version=1.26",
+      "/h5p/core/js/h5p-content-type.js?version=1.26",
+      "/h5p/core/js/h5p-confirmation-dialog.js?version=1.26",
+      "/h5p/core/js/h5p-action-bar.js?version=1.26",
+      "/h5p/core/js/request-queue.js?version=1.26"
     ],
     "styles": [
-      "/h5p/core/styles/h5p.css?version=1.24-master",
-      "/h5p/core/styles/h5p-confirmation-dialog.css?version=1.24-master",
-      "/h5p/core/styles/h5p-core-button.css?version=1.24-master"
+      "/h5p/core/styles/h5p.css?version=1.26",
+      "/h5p/core/styles/h5p-confirmation-dialog.css?version=1.26",
+      "/h5p/core/styles/h5p-core-button.css?version=1.26"
     ]
   },
   "l10n": {
