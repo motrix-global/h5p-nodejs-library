@@ -1,5 +1,5 @@
 {
-    "name": "@lumieducation/h5p-webcomponents",
+    "name": "@motrixglobal/h5p-webcomponents",
     "version": "9.3.6",
     "description": "A Web Component wrapper around the H5P Editor and Player",
     "author": "Sebastian Rettig",
@@ -32,5 +32,6 @@
     "devDependencies": {
         "@motrixglobal/h5p-server": "^9.3.6",
         "@types/resize-observer-browser": "0.1.11"
-    }
+    },
+    "gitHead": "956974eca196a3498c200ef83c6db660e2e8c73a"
 }

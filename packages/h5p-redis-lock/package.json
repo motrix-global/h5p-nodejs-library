@@ -1,5 +1,5 @@
 {
-    "name": "@lumieducation/h5p-redis-lock",
+    "name": "@motrixglobal/h5p-redis-lock",
     "version": "9.3.6",
     "description": "A simple Redis-based lock",
     "license": "GPL-3.0-or-later",
@@ -32,5 +32,6 @@
     "types": "./build/RedisLockProvider.d.ts",
     "devDependencies": {
         "tmp-promise": "3.0.3"
-    }
+    },
+    "gitHead": "956974eca196a3498c200ef83c6db660e2e8c73a"
 }

@@ -3,7 +3,7 @@
     "compilerOptions": {
         "paths": {
             "@motrixglobal/h5p-server": ["../h5p-server/src"],
-            "@lumieducation/h5p-webcomponents": ["../h5p-webcomponents/src"]
+            "@motrixglobal/h5p-webcomponents": ["../h5p-webcomponents/src"]
         }
     }
 }

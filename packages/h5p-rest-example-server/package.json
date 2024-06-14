@@ -1,5 +1,5 @@
 {
-    "name": "@lumieducation/h5p-rest-example-server",
+    "name": "@motrixglobal/h5p-rest-example-server",
     "version": "9.3.3",
     "private": true,
     "description": "",
@@ -16,10 +16,10 @@
     "author": "S. Rettig",
     "license": "MIT",
     "dependencies": {
-        "@lumieducation/h5p-express": "^9.3.3",
-        "@lumieducation/h5p-mongos3": "^9.3.3",
+        "@motrixglobal/h5p-express": "^9.3.3",
+        "@motrixglobal/h5p-mongos3": "^9.3.3",
         "@motrixglobal/h5p-server": "^9.3.3",
-        "@lumieducation/h5p-shared-state-server": "^9.3.3",
+        "@motrixglobal/h5p-shared-state-server": "^9.3.3",
         "body-parser": "1.20.2",
         "cache-manager": "4.1.0",
         "cache-manager-redis-store": "2.0.0",

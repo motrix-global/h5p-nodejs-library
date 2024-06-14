@@ -14,8 +14,8 @@ import {
     libraryAdministrationExpressRouter,
     contentTypeCacheExpressRouter,
     IRequestWithUser
-} from '@lumieducation/h5p-express';
-import H5PHtmlExporter from '@lumieducation/h5p-html-exporter';
+} from '@motrixglobal/h5p-express';
+import H5PHtmlExporter from '@motrixglobal/h5p-html-exporter';
 import * as H5P from '@motrixglobal/h5p-server';
 
 import startPageRenderer from './startPageRenderer';

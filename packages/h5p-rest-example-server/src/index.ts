@@ -15,7 +15,7 @@ import {
     h5pAjaxExpressRouter,
     libraryAdministrationExpressRouter,
     contentTypeCacheExpressRouter
-} from '@lumieducation/h5p-express';
+} from '@motrixglobal/h5p-express';
 
 import * as H5P from '@motrixglobal/h5p-server';
 import restExpressRoutes from './routes';

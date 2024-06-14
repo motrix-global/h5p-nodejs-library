@@ -1,5 +1,5 @@
 {
-    "name": "@lumieducation/h5p-express",
+    "name": "@motrixglobal/h5p-express",
     "version": "9.3.6",
     "description": "A community re-implementation of the H5P server",
     "license": "GPL-3.0-or-later",
@@ -60,5 +60,6 @@
         "fs-extra": "11.2.0",
         "supertest": "6.3.3",
         "tmp-promise": "3.0.3"
-    }
+    },
+    "gitHead": "956974eca196a3498c200ef83c6db660e2e8c73a"
 }

@@ -3,7 +3,7 @@ import * as H5P from '@motrixglobal/h5p-server';
 import {
     IRequestWithUser,
     IRequestWithLanguage
-} from '@lumieducation/h5p-express';
+} from '@motrixglobal/h5p-express';
 
 /**
  * @param h5pEditor

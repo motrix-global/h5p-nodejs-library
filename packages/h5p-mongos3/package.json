@@ -1,5 +1,5 @@
 {
-    "name": "@lumieducation/h5p-mongos3",
+    "name": "@motrixglobal/h5p-mongos3",
     "version": "9.3.6",
     "description": "A community re-implementation of the H5P server",
     "license": "GPL-3.0-or-later",
@@ -56,5 +56,6 @@
         "fs-extra": "11.2.0",
         "promisepipe": "3.0.0",
         "stream-mock": "2.0.5"
-    }
+    },
+    "gitHead": "956974eca196a3498c200ef83c6db660e2e8c73a"
 }

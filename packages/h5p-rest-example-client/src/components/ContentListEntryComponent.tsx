@@ -27,7 +27,7 @@ import {
     faLock
 } from '@fortawesome/free-solid-svg-icons';
 
-import { H5PEditorUI, H5PPlayerUI } from '@lumieducation/h5p-react';
+import { H5PEditorUI, H5PPlayerUI } from '@motrixglobal/h5p-react';
 
 import { IContentListEntry, IContentService } from '../services/ContentService';
 import './ContentListEntryComponent.css';

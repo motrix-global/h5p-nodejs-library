@@ -1,5 +1,5 @@
 {
-    "name": "@lumieducation/h5p-shared-state-server",
+    "name": "@motrixglobal/h5p-shared-state-server",
     "version": "9.3.6",
     "description": "A component providing server-side support for shared states with ShareDB",
     "main": "build/SharedStateServer.js",
@@ -26,5 +26,6 @@
     },
     "publishConfig": {
         "access": "public"
-    }
+    },
+    "gitHead": "956974eca196a3498c200ef83c6db660e2e8c73a"
 }

@@ -2,7 +2,7 @@ import { Cache, caching } from 'cache-manager';
 import redisStore from 'cache-manager-redis-store';
 
 import * as H5P from '@motrixglobal/h5p-server';
-import * as dbImplementations from '@lumieducation/h5p-mongos3';
+import * as dbImplementations from '@motrixglobal/h5p-mongos3';
 import { IContentMetadata, IUser } from '@motrixglobal/h5p-server';
 
 /**
