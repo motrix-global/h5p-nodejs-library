@@ -1,6 +1,6 @@
 {
     "name": "@motrixglobal/h5p-react",
-    "version": "9.3.6",
+    "version": "9.3.7",
     "main": "./build/umd/index.js",
     "module": "./build/es2015/index.js",
     "types": "./build/es2015/index.d.ts",
@@ -18,11 +18,11 @@
         }
     ],
     "dependencies": {
-        "@motrixglobal/h5p-webcomponents": "^9.3.6",
+        "@motrixglobal/h5p-webcomponents": "^9.3.7",
         "react": "18.2.0"
     },
     "devDependencies": {
-        "@motrixglobal/h5p-server": "^9.3.6",
+        "@motrixglobal/h5p-server": "^9.3.7",
         "@types/react": "18.2.67"
     },
     "gitHead": "956974eca196a3498c200ef83c6db660e2e8c73a"
