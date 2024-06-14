@@ -43,7 +43,7 @@
         }
     ],
     "dependencies": {
-        "@lumieducation/h5p-server": "^9.3.3",
+        "@motrixglobal/h5p-server": "^9.3.3",
         "fs-extra": "11.2.0",
         "mime-types": "^2.1.35",
         "postcss": "^8.4.23",

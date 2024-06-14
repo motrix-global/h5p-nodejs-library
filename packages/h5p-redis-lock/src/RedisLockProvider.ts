@@ -1,7 +1,7 @@
 import { Redis } from 'ioredis';
 import { lock } from 'simple-redis-mutex';
 
-import { ILockProvider, Logger } from '@lumieducation/h5p-server';
+import { ILockProvider, Logger } from '@motrixglobal/h5p-server';
 
 const log = new Logger('RedisLockProvider');
 

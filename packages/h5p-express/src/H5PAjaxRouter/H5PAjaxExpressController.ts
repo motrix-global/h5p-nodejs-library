@@ -1,9 +1,5 @@
 import * as express from 'express';
-import {
-    H5PEditor,
-    H5pError,
-    H5PAjaxEndpoint
-} from '@lumieducation/h5p-server';
+import { H5PEditor, H5pError, H5PAjaxEndpoint } from '@motrixglobal/h5p-server';
 import { Readable } from 'stream';
 import { IRequestWithUser, IActionRequest } from '../expressTypes';
 

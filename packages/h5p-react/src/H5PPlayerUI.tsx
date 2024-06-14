@@ -9,7 +9,7 @@ import {
     IH5PInstance,
     IH5P
 } from '@lumieducation/h5p-webcomponents';
-import type { IPlayerModel } from '@lumieducation/h5p-server';
+import type { IPlayerModel } from '@motrixglobal/h5p-server';
 
 defineElements('h5p-player');
 

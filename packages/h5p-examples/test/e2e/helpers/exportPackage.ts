@@ -1,8 +1,8 @@
 import fsExtra from 'fs-extra';
 import path from 'path';
 
-import PackageImporter from '@lumieducation/h5p-server/src/PackageImporter';
-import Logger from '@lumieducation/h5p-server/src/helpers/Logger';
+import PackageImporter from '@motrixglobal/h5p-server/src/PackageImporter';
+import Logger from '@motrixglobal/h5p-server/src/helpers/Logger';
 
 const log = new Logger('exportPackage');
 /**

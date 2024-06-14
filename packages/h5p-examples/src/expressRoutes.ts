@@ -1,6 +1,6 @@
 import express from 'express';
 
-import * as H5P from '@lumieducation/h5p-server';
+import * as H5P from '@motrixglobal/h5p-server';
 import {
     IRequestWithUser,
     IRequestWithLanguage

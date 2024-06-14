@@ -1,4 +1,4 @@
-import type { IPlayerModel } from '@lumieducation/h5p-server';
+import type { IPlayerModel } from '@motrixglobal/h5p-server';
 
 import { mergeH5PIntegration, removeUnusedContent } from './h5p-utils';
 import { addScripts, addStylesheets } from './dom-utils';

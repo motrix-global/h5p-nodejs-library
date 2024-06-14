@@ -1,4 +1,4 @@
-import { IUser } from '@lumieducation/h5p-server';
+import { IUser } from '@motrixglobal/h5p-server';
 import ShareDB from 'sharedb';
 import debug from 'debug';
 

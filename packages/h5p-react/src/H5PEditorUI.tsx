@@ -5,7 +5,7 @@ import {
     defineElements,
     H5PEditorComponent as H5PEditorWebComponent
 } from '@lumieducation/h5p-webcomponents';
-import type { IContentMetadata, IEditorModel } from '@lumieducation/h5p-server';
+import type { IContentMetadata, IEditorModel } from '@motrixglobal/h5p-server';
 
 defineElements('h5p-editor');
 

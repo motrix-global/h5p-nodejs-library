@@ -2,7 +2,7 @@ import type {
     IEditorModel,
     IPlayerModel,
     IContentMetadata
-} from '@lumieducation/h5p-server';
+} from '@motrixglobal/h5p-server';
 
 export interface IContentListEntry {
     contentId: string;

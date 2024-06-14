@@ -1,4 +1,4 @@
-import { H5pError, Logger, utils } from '@lumieducation/h5p-server';
+import { H5pError, Logger, utils } from '@motrixglobal/h5p-server';
 
 const { generalizedSanitizeFilename } = utils;
 

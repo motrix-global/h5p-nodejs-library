@@ -1,4 +1,4 @@
-import { IIntegration } from '@lumieducation/h5p-server';
+import { IIntegration } from '@motrixglobal/h5p-server';
 
 export default (
     integration: IIntegration,
@@ -10,7 +10,7 @@ export default (
 <!doctype html>
 <html class="h5p-iframe">
     <head>
-        <meta charset="utf-8">                    
+        <meta charset="utf-8">
         <script>H5PIntegration = ${JSON.stringify({
             ...integration,
             baseUrl: '.',
@@ -23,6 +23,6 @@ export default (
         <style>${stylesBundle}</style>
     </head>
     <body>
-        <div class="h5p-content lag" data-content-id="${contentId}"></div>                
+        <div class="h5p-content lag" data-content-id="${contentId}"></div>
     </body>
 </html>`;

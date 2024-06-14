@@ -17,7 +17,7 @@ import {
     contentTypeCacheExpressRouter
 } from '@lumieducation/h5p-express';
 
-import * as H5P from '@lumieducation/h5p-server';
+import * as H5P from '@motrixglobal/h5p-server';
 import restExpressRoutes from './routes';
 import ExampleUser from './ExampleUser';
 import createH5PEditor from './createH5PEditor';
@@ -111,7 +111,7 @@ const start = async (): Promise<void> => {
             backend: {
                 loadPath: path.join(
                     __dirname,
-                    '../node_modules/@lumieducation/h5p-server/build/assets/translations/{{ns}}/{{lng}}.json'
+                    '../node_modules/@motrixglobal/h5p-server/build/assets/translations/{{ns}}/{{lng}}.json'
                 )
             },
             debug: process.env.DEBUG && process.env.DEBUG.includes('i18n'),

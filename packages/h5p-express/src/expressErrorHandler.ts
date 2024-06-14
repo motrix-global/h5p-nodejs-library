@@ -3,7 +3,7 @@ import {
     AjaxErrorResponse,
     H5pError,
     Logger
-} from '@lumieducation/h5p-server';
+} from '@motrixglobal/h5p-server';
 import { Request, Response, NextFunction } from 'express';
 
 const log = new Logger('h5p-express');

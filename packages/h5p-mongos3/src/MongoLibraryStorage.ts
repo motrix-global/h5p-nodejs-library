@@ -20,7 +20,7 @@ import {
     H5pError,
     streamToString,
     Logger
-} from '@lumieducation/h5p-server';
+} from '@motrixglobal/h5p-server';
 import { ReadableStreamBuffer } from 'stream-buffers';
 
 const log = new Logger('MongoLibraryStorage');

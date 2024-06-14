@@ -7,7 +7,7 @@ import { Db, Collection, MongoClient, ObjectId } from 'mongodb';
 import fsExtra from 'fs-extra';
 import path from 'path';
 
-import { ILibraryMetadata, streamToString } from '@lumieducation/h5p-server';
+import { ILibraryMetadata, streamToString } from '@motrixglobal/h5p-server';
 import MongoS3LibraryStorage from '../src/MongoS3LibraryStorage';
 import initS3 from '../src/initS3';
 import { emptyAndDeleteBucket } from './s3-utils';

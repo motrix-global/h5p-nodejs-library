@@ -22,7 +22,7 @@ import {
     streamToString,
     IIntegration,
     ITranslationFunction
-} from '@lumieducation/h5p-server';
+} from '@motrixglobal/h5p-server';
 import upath from 'upath';
 
 import postCssRemoveRedundantUrls from './helpers/postCssRemoveRedundantFontUrls';

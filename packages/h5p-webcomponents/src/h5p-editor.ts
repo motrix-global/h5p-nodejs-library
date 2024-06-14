@@ -1,4 +1,4 @@
-import type { IEditorModel, IContentMetadata } from '@lumieducation/h5p-server';
+import type { IEditorModel, IContentMetadata } from '@motrixglobal/h5p-server';
 
 import { mergeH5PIntegration } from './h5p-utils';
 import { addScripts } from './dom-utils';

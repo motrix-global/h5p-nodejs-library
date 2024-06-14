@@ -1,6 +1,6 @@
 import React from 'react';
 
-import type { IInstalledLibrary } from '@lumieducation/h5p-server';
+import type { IInstalledLibrary } from '@motrixglobal/h5p-server';
 
 const yesNo = (value: undefined | boolean | 0 | 1) =>
     value ? (

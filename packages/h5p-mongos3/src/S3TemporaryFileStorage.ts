@@ -8,7 +8,7 @@ import {
     IFileStats,
     H5pError,
     Logger
-} from '@lumieducation/h5p-server';
+} from '@motrixglobal/h5p-server';
 import { ReadStream } from 'fs';
 import { validateFilename, sanitizeFilename } from './S3Utils';
 

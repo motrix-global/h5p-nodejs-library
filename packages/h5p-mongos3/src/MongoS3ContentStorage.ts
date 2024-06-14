@@ -14,7 +14,7 @@ import {
     ILibraryName,
     H5pError,
     Logger
-} from '@lumieducation/h5p-server';
+} from '@motrixglobal/h5p-server';
 import { validateFilename, sanitizeFilename } from './S3Utils';
 
 const log = new Logger('MongoS3ContentStorage');

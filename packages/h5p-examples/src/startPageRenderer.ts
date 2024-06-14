@@ -1,4 +1,4 @@
-import * as H5P from '@lumieducation/h5p-server';
+import * as H5P from '@motrixglobal/h5p-server';
 
 export default function render(
     editor: H5P.H5PEditor
@@ -27,7 +27,7 @@ export default function render(
         <body>
             <div class="container">
                 <h1>H5P NodeJs Demo</h1>
-                <div class="alert alert-warning">This demo is for debugging and demonstration purposes only and not suitable for production use!</div>                
+                <div class="alert alert-warning">This demo is for debugging and demonstration purposes only and not suitable for production use!</div>
                 <h2>
                     <span class="fa fa-file"></span> Existing content
                 </h2>
@@ -44,7 +44,7 @@ export default function render(
                                         <a href="${editor.config.baseUrl}${editor.config.playUrl}/${content.id}">
                                             <h5>${content.content.title}</h5>
                                         </a>
-                                        <div class="small d-flex">                                            
+                                        <div class="small d-flex">
                                             <div class="me-2">
                                                 <span class="fa fa-book-open"></span>
                                                 ${content.content.mainLibrary}
@@ -55,7 +55,7 @@ export default function render(
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="p-2">                                        
+                                    <div class="p-2">
                                         <a class="btn btn-secondary" href="${editor.config.baseUrl}/edit/${content.id}">
                                             <span class="fa fa-pencil-alt m-1"></span>
                                             edit
@@ -79,7 +79,7 @@ export default function render(
                                             delete
                                         </a>
                                     </div>
-                                </div>                                
+                                </div>
                             </div>`
                     )
                     .join('')}
@@ -102,13 +102,13 @@ export default function render(
                     "react",
                     "react-dom",
                     "./client/LibraryAdminComponent.js",
-                    "./client/ContentTypeCacheComponent.js"], 
+                    "./client/ContentTypeCacheComponent.js"],
                     function (React, ReactDOM, LibraryAdmin, ContentTypeCache) {
                         const libraryAdminContainer = document.querySelector('#library-admin-container');
                         ReactDOM.render(React.createElement(LibraryAdmin.default, { endpointUrl: 'h5p/libraries' }), libraryAdminContainer);
                         const contentTypeCacheContainer = document.querySelector('#content-type-cache-container');
                         ReactDOM.render(React.createElement(ContentTypeCache.default, { endpointUrl: 'h5p/content-type-cache' }), contentTypeCacheContainer);
-                    });                
+                    });
             </script>
         </body>
         `);

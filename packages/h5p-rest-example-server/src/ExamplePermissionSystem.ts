@@ -4,7 +4,7 @@ import {
     TemporaryFilePermission,
     ContentPermission,
     UserDataPermission
-} from '@lumieducation/h5p-server';
+} from '@motrixglobal/h5p-server';
 
 import ExampleUser from './ExampleUser';
 

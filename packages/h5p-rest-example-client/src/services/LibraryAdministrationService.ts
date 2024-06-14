@@ -1,7 +1,7 @@
 import type {
     IInstalledLibrary,
     ILibraryAdministrationOverviewItem
-} from '@lumieducation/h5p-server';
+} from '@motrixglobal/h5p-server';
 
 /**
  * The data model used to display the library list.

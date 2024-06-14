@@ -4,7 +4,7 @@ import {
     ContentUserDataManager,
     IH5PConfig,
     IPostContentUserData
-} from '@lumieducation/h5p-server';
+} from '@motrixglobal/h5p-server';
 
 import { IRequestWithUser } from '../expressTypes';
 

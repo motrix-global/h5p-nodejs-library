@@ -18,14 +18,14 @@ import {
     libraryAdministrationExpressRouter,
     contentTypeCacheExpressRouter
 } from '@lumieducation/h5p-express';
-import * as H5P from '@lumieducation/h5p-server';
+import * as H5P from '@motrixglobal/h5p-server';
 import SharedStateServer from '@lumieducation/h5p-shared-state-server';
 
 import restExpressRoutes from './routes';
 import ExampleUser from './ExampleUser';
 import createH5PEditor from './createH5PEditor';
 import { displayIps, clearTempFiles } from './utils';
-import { IUser } from '@lumieducation/h5p-server';
+import { IUser } from '@motrixglobal/h5p-server';
 import ExamplePermissionSystem from './ExamplePermissionSystem';
 
 let tmpDir: DirectoryResult;
@@ -128,7 +128,7 @@ const start = async (): Promise<void> => {
             backend: {
                 loadPath: path.join(
                     __dirname,
-                    '../node_modules/@lumieducation/h5p-server/build/assets/translations/{{ns}}/{{lng}}.json'
+                    '../node_modules/@motrixglobal/h5p-server/build/assets/translations/{{ns}}/{{lng}}.json'
                 )
             },
             debug: process.env.DEBUG && process.env.DEBUG.includes('i18n'),

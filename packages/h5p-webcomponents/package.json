@@ -30,7 +30,7 @@
         "deepmerge": "^4.3.1"
     },
     "devDependencies": {
-        "@lumieducation/h5p-server": "^9.3.3",
+        "@motrixglobal/h5p-server": "^9.3.3",
         "@types/resize-observer-browser": "0.1.11"
     }
 }

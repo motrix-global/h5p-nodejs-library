@@ -41,6 +41,47 @@ exports[`ContentScanner aborts scanning when requested 1`] = `
 ]
 `;
 
+exports[`ContentScanner aborts scanning when requested 2`] = `
+[
+  "$.a11yCheck",
+  "$.a11yCheckingModeHeader",
+  "$.a11yRetry",
+  "$.a11yShowSolution",
+  "$.answerIsCorrect",
+  "$.answerIsWrong",
+  "$.answeredCorrectly",
+  "$.answeredIncorrectly",
+  "$.behaviour",
+  "$.checkAnswer",
+  "$.confirmCheck",
+  "$.confirmRetry",
+  "$.confirmRetry.body",
+  "$.confirmRetry.cancelLabel",
+  "$.confirmRetry.confirmLabel",
+  "$.confirmRetry.header",
+  "$.inputHasTipLabel",
+  "$.inputLabel",
+  "$.media",
+  "$.notFilledOut",
+  "$.overallFeedback",
+  "$.overallFeedback[0]",
+  "$.overallFeedback[0].feedback",
+  "$.overallFeedback[0].from",
+  "$.overallFeedback[0].to",
+  "$.questions",
+  "$.questions[0]",
+  "$.questions[1]",
+  "$.questions[2]",
+  "$.scoreBarLabel",
+  "$.showSolutions",
+  "$.solutionLabel",
+  "$.submitAnswer",
+  "$.text",
+  "$.tipLabel",
+  "$.tryAgain",
+]
+`;
+
 exports[`ContentScanner scans the semantic structure of H5P.Blanks example 1`] = `
 [
   "$.a11yCheck",
